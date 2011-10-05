@@ -4,7 +4,7 @@
 
 (defsystem :util.match
   :serial t
-  :depends-on (:rnrs-compat :srfi-1 :srfi-2 :srfi-13 :fiveam)
+  :depends-on (:rnrs-compat :srfi-1 :srfi-2 :srfi-5 :srfi-13 :fiveam)
   :components ((:file "package")
                (:file "util.match")))
 
